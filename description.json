@@ -4,12 +4,12 @@
     "commands": [
         {
             "name": "base64 encode",
-            "usage": "base64 encode (.*), encode (.*)",
+            "usage": "base64 encode {ASCII string}, encode {ASCII string}",
             "desctiption": "Base64 encode of string"
         },
         {
             "name": "base64 decode",
-            "usage": "base64 decode (.*), decode (.*)",
+            "usage": "base64 decode {Base64 string}, decode {Base64 string}",
             "desctiption": "Base64 decode to ascii string"
         }
     ]
