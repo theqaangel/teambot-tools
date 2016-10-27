@@ -1,0 +1,16 @@
+{
+    "name": "Tools",
+    "description": "Development tools",
+    "commands": [
+        {
+            "name": "base64 encode",
+            "usage": "base64 encode (.*), encode (.*)",
+            "desctiption": "Base64 encode of string"
+        },
+        {
+            "name": "base64 decode",
+            "usage": "base64 decode (.*), decode (.*)",
+            "desctiption": "Base64 decode to ascii string"
+        }
+    ]
+}
